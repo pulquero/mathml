@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.sf.mathml</groupId>
   <artifactId>mathml-parent</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>pom</packaging>
   <name>MathML for Java</name>
   <description>MathML DOM for Java</description>
@@ -28,7 +28,8 @@
 		<connection>scm:git:git@github.com:pulquero/mathml.git</connection>
 		<developerConnection>scm:git:git@github.com:pulquero/mathml.git</developerConnection>
 		<url>https://github.com/pulquero/mathml</url>
-	</scm>
+	  <tag>mathml-parent-1.0</tag>
+  </scm>
 
 	<build>
 		<pluginManagement>
@@ -126,6 +127,9 @@
 				          <goals>
 				            <goal>sign</goal>
 				          </goals>
+				          <configuration>
+				          	<keyname>D8805BAE</keyname>
+				          </configuration>
 				        </execution>
 				      </executions>
 				    </plugin>
